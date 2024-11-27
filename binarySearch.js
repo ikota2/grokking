@@ -16,11 +16,11 @@ function binarySearch(arr, n) {
 }
 
 const ex1 = new Array(128).fill(true).map((_, i) => i+1);
-const answer1 = Math.log2(128);
+const ex2 = Math.log2(128);
 
 
 console.log(binarySearch([1,2,3,4,5,6,7,8,9,10], 3));
 
 console.log(binarySearch(ex1, 10));
 
-console.log({ answer1 })
+console.log({ ex2 })
